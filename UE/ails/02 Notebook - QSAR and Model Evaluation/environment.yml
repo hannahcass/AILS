@@ -1,0 +1,17 @@
+name: ails
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python >=3.7
+  - h5py=2.10.0
+  - pip
+  - scikit-learn
+  - scipy
+  - numpy
+  - pandas
+  - jupyterlab
+  - ipykernel
+  - rdkit
+  - matplotlib
+  - tqdm

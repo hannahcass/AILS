@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ails"
+version = "0.1.0"
+description = ""
+authors = ["hannahcass <agne.garrett@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.3"
+jupyter = "^1.0.0"
+jupyterlab = "^3.6.1"
+scikit-learn = "^1.2.1"
+xgboost = "^1.7.4"
+optuna = "^3.1.0"
+h5py = "2.10.0"
+ipykernel = "^6.22.0"
+rdkit = "^2022.9.5"
+tensorboard = "^2.12.1"
+numpy = "^1.24.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
