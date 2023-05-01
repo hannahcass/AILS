@@ -2,7 +2,7 @@
 
 conda create --name env_name
 
-## Install poetry using pip and create new project
+## (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
 
 pip install poetry
 peotry new my_project
