@@ -2,10 +2,9 @@
 
 conda create --name env_name
 
-## (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+## Install Poetry
 
-pip install poetry
-peotry new my_project
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
 
 ## Install torch
 
