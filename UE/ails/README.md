@@ -2,10 +2,9 @@
 
 conda create --name env_name
 
-## Install poetry using pip and create new project
+## Install Poetry
 
-pip install poetry
-peotry new my_project
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
 
 ## Install torch
 
@@ -16,6 +15,8 @@ poetry run pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 -f https://
 ## Check if cuda active
 
 poetry run python -c "import torch; print(torch.cuda.is_available())"
+
+python -c "import torch; print(torch.cuda.is_available())"
 
 ## Evaluate results
 
